@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className="navbar flex justify-center items-center max-w-xl md:max-w-full">
       <div className="navbar-start px-2 ">
         <Link to={"/"} className="navbar-item">
-          Simples Arbitrage Finder
+          Simplest Arbitrage Finder
         </Link>
       </div>
       <div className="navbar-end px-3">
