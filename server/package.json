@@ -4,10 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev-start": "nodemon app.js",
+    "start": "nodemon app.js",
     "dev": "nodemon --exec babel-node app.js",
     "build": "babel  ./ -d  build --ignore node_modules",
-    "start": "node build/app.js"
+    "dev-start": "node build/app.js"
   },
   "keywords": [],
   "author": "",
